@@ -1,10 +1,12 @@
 # ItsHardToCookSushi
 
 Team Name - Skill Issue
+
 Team Members - Sadman Sakib
                Shefa Tabassum
 
 Used engine - Godot
+
 How to install - playable on web from      itch.io
 
 How to play - This is a story based game.
