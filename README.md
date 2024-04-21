@@ -7,7 +7,7 @@ Team Members - Sadman Sakib
 
 Used engine - Godot
 
-How to install - no need to install , playable on web from itch.io
+How to install - no need to install , playable on web from link on itch.io
 
 How to play - This is a story based game.
 For different keys there are different functionalities ,In the map, for pressing-
@@ -31,4 +31,5 @@ I - Inventory
 Video link-
 
 
-Important to know-
+Important to know- Ingredients can be bought by going to shop.
+Cooking time is 5sec.
