@@ -1,0 +1,12 @@
+res://Dialogue/dialogue.tscn::f16eaf380e3414f3492280d4df51dee9::1713740479::res://.godot/exported/133200997/export-266b5c333cc5a10a4fad110ad4b6ef1c-dialogue.scn
+res://scene/apple_collectable.tscn::c3989bb73235351def8549d5e14ee08c::1713740478::res://.godot/exported/133200997/export-1dfd034840c8f95434479b099e066414-apple_collectable.scn
+res://scene/apple_tree.tscn::fdc7f073f40b6db70aede3d1a2f25821::1713740478::res://.godot/exported/133200997/export-0a9da8e3e274db32cfbacf867cf7a743-apple_tree.scn
+res://scene/cookingSystem.tscn::93fdcc2b86737607cd783c374d0e4f3d::1713740479::res://.godot/exported/133200997/export-13f876f80e1c34134231a9b38f6ff188-cookingSystem.scn
+res://scene/dashboard.tscn::51f8e54adb5d435cac78547b511dd4a1::1713740479::res://.godot/exported/133200997/export-b57af4f174c9b06c103a34413c7ad5d7-dashboard.scn
+res://scene/npc.tscn::2ed9f79360dcf5f43e6a3d6dc2f60171::1713740479::res://.godot/exported/133200997/export-c27eb17d60130cefe6ee3cca69eaa6d4-npc.scn
+res://scene/player.tscn::a4b627a8bb7adf611d09e4d8e46bcccc::1713740477::res://.godot/exported/133200997/export-34afcb3bda2393b8f6a0cd71512aeb81-player.scn
+res://scene/shopkeeper.tscn::30e7762180102ba73850b5dd4ca2badc::1713740479::res://.godot/exported/133200997/export-a418af4345e83b29fb9b8f03208b9ae4-shopkeeper.scn
+res://scene/shopmenu.tscn::6d01d9e48bf53021d3e3601108981035::1713740479::res://.godot/exported/133200997/export-8dcfb678573009ac29672b712d7e7297-shopmenu.scn
+res://scene/stick_collectable.tscn::487d83d3e29f3b29be3a849ab9571aa8::1713740478::res://.godot/exported/133200997/export-70fb2b8c7f9f59b0102b17f18d320f62-stick_collectable.scn
+res://scene/world2.tscn::87c38a2aaec0410a1a93efa5e6d0a5d0::1713740479::res://.godot/exported/133200997/export-66de6b36a3cbb6e5f4adf39280c3a107-world2.scn
+res://scene/world.tscn::b7a2f1900dbb139c849fa4dc44445ab2::1713740478::res://.godot/exported/133200997/export-468916015e48c1dac4bdaaea608ba868-world.scn

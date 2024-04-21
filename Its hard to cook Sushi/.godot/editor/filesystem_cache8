@@ -1,0 +1,108 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1713741413
+apple_tree.gd::GDScript::-1::1713688176::0::1::::<>Node<>::
+export_presets.cfg::TextFile::-1::1713740613::0::1::::<><>::
+icon.svg::CompressedTexture2D::3869304774072086671::1713539366::1713539401::1::::<><>::
+NPC.gd::GDScript::-1::1713738308::0::1::::<>CharacterBody2D<>::
+global.gd::GDScript::-1::1713739210::0::1::::<>Node<>::
+shopkeeper.gd::GDScript::-1::1713731473::0::1::::<>StaticBody2D<>::
+shopmenu.gd::GDScript::-1::1713739250::0::1::::<>StaticBody2D<>::
+stick_collectable.gd::GDScript::-1::1713622214::0::1::::<>StaticBody2D<>::
+::res://art/::1713740245
+sushiicon.png::::-1::1713740203::0::0::::<><>::
+::res://art/Character/::1713726697
+Chef-flipped.png::CompressedTexture2D::924153319660858683::1713638139::1713638194::1::::<><>::
+chef.png::CompressedTexture2D::2173203780702003881::1713636808::1713637540::1::::<><>::
+Human-Worker-Red (1).png::CompressedTexture2D::7975151014804966674::1713726601::1713726697::1::::<><>::
+survivalgame-player-green.png::CompressedTexture2D::236111739118404092::1713542361::1713542683::1::::<><>::
+::res://art/environment/::1713727988
+apple-icon.png::CompressedTexture2D::4715546096751029683::1713542412::1713542683::1::::<><>::
+bridges.png::CompressedTexture2D::7489696386624421025::1713643776::1713643853::1::::<><>::
+farmingTilesheetComplete.png::CompressedTexture2D::7124545869007696016::1713727924::1713727988::1::::<><>::
+lamp.png::CompressedTexture2D::7092146508359578234::1713643812::1713643853::1::::<><>::
+mtfuji.png::CompressedTexture2D::3418389095878811401::1713640407::1713640452::1::::<><>::
+resturant.png::CompressedTexture2D::6724383549871397243::1713640945::1713641091::1::::<><>::
+sakura.png::CompressedTexture2D::6542121416728370328::1713640836::1713641091::1::::<><>::
+shop-grocery.png::CompressedTexture2D::1204604297973974592::1713640884::1713641091::1::::<><>::
+shrine.png::CompressedTexture2D::1511484220539457989::1713641321::1713641353::1::::<><>::
+shrinegate.png::CompressedTexture2D::2041963300305936783::1713640757::1713641091::1::::<><>::
+snow.jpg::CompressedTexture2D::4883952220676274156::1713641034::1713641091::1::::<><>::
+stick-icon.png::CompressedTexture2D::3341562072869101350::1713542397::1713542683::1::::<><>::
+survivalgame-appletree.png::CompressedTexture2D::2001955954815349229::1713542390::1713542683::1::::<><>::
+survivalgame-randomitems.png::CompressedTexture2D::8901636742557154160::1713542386::1713542683::1::::<><>::
+survivalgame-terrian-cliffs.png::CompressedTexture2D::5911369276113342416::1713542381::1713542683::1::::<><>::
+survivalgame-terrian-defult.png::CompressedTexture2D::4302150363512705923::1713542375::1713542683::1::::<><>::
+survivalgame-terrian-water.png::CompressedTexture2D::8533856891577837160::1713542343::1713557084::1::::<><>::
+survivalgame-trees.png::CompressedTexture2D::5913995236045837501::1713542369::1713542683::1::::<><>::
+town.png::CompressedTexture2D::275241779909326663::1713640997::1713641091::1::::<><>::
+::res://art/ingredients/::1713697077
+ingredient (1).png::CompressedTexture2D::5005625619298509530::1713696961::1713697077::1::::<><>::
+ingredient (2).png::CompressedTexture2D::6044436407130422986::1713696828::1713697077::1::::<><>::
+ingredient (3).png::CompressedTexture2D::4204381785879278864::1713696769::1713697077::1::::<><>::
+ingredient (4).png::CompressedTexture2D::4620611439144243089::1713696842::1713697077::1::::<><>::
+ingredient (5).png::CompressedTexture2D::2848849489067090350::1713696934::1713697077::1::::<><>::
+ingredient (6).png::CompressedTexture2D::4699588243204445880::1713696733::1713697077::1::::<><>::
+ingredient (7).png::CompressedTexture2D::1133316001381864572::1713696628::1713697077::1::::<><>::
+ingredient (8).png::CompressedTexture2D::730139176514946400::1713696814::1713697077::1::::<><>::
+ingredient (9).png::CompressedTexture2D::5872224110710715833::1713696751::1713697077::1::::<><>::
+ingredient (10).png::CompressedTexture2D::6607805716614391270::1713696919::1713697077::1::::<><>::
+ingredient (11).png::CompressedTexture2D::2945804399520481398::1713696717::1713697077::1::::<><>::
+ingredient (12).png::CompressedTexture2D::4988146949645433961::1713696798::1713697077::1::::<><>::
+ingredient (13).png::CompressedTexture2D::3904110274744931485::1713696947::1713697077::1::::<><>::
+ingredient (14).png::CompressedTexture2D::8643416127906804823::1713696905::1713697077::1::::<><>::
+ingredient (15).png::CompressedTexture2D::8951677714169154505::1713696889::1713697077::1::::<><>::
+ingredient (16).png::CompressedTexture2D::2113094971896519409::1713696857::1713697077::1::::<><>::
+ingredient (17).png::CompressedTexture2D::2615179141954408887::1713696873::1713697077::1::::<><>::
+ingredient (18).png::CompressedTexture2D::234878435333103906::1713696782::1713697077::1::::<><>::
+::res://art/inventory_art/::1713636979
+bow.png::CompressedTexture2D::4942970173223956271::1713542425::1713542683::1::::<><>::
+inventory-background.png::CompressedTexture2D::781246941802538840::1713542421::1713610714::1::::<><>::
+inventory-slot.png::CompressedTexture2D::1512475456085128134::1713542416::1713610714::1::::<><>::
+::res://art/KitchenArts/::1713712369
+cash.png::CompressedTexture2D::710024629158313019::1713710339::1713710430::1::::<><>::
+door.png::CompressedTexture2D::6005949295326748414::1713683032::1713683037::1::::<><>::
+KitchenSet (1).png::CompressedTexture2D::6312162951977284082::1713680354::1713681558::1::::<><>::
+KitchenSet (2).png::CompressedTexture2D::601031536371086912::1713680356::1713681558::1::::<><>::
+KitchenSet (3).png::CompressedTexture2D::3941536641751111622::1713680357::1713681558::1::::<><>::
+Tile1.jpg::CompressedTexture2D::4989831500867855237::1713680682::1713680866::1::::<><>::
+Tile2.jpg::CompressedTexture2D::2913129993058458996::1713680713::1713680866::1::::<><>::
+tile3.jpg::CompressedTexture2D::3767225405944961171::1713680743::1713680867::1::::<><>::
+whitebg (1).jpeg::CompressedTexture2D::6377080039708170797::1713712268::1713712369::1::::<><>::
+whitebg (1).png::CompressedTexture2D::7351517852815717808::1713712265::1713712369::1::::<><>::
+whitebg (2).png::CompressedTexture2D::7628826275964240355::1713712270::1713712369::1::::<><>::
+::res://art/sushis/::1713710430
+sushi (1).png::CompressedTexture2D::3342399966732504110::1713710228::1713710430::1::::<><>::
+sushi (2).png::CompressedTexture2D::5110676045956150647::1713710232::1713710430::1::::<><>::
+sushi (3).png::CompressedTexture2D::6027659595931679154::1713710226::1713710430::1::::<><>::
+sushi (4).png::CompressedTexture2D::6978497736688495954::1713710237::1713710430::1::::<><>::
+sushi (5).png::CompressedTexture2D::5505821755299198433::1713710233::1713710430::1::::<><>::
+::res://Dialogue/::1713740479
+dialogue.tscn::PackedScene::7763819010496396686::1713740479::0::1::::<><>::res://Dialogue/dialogueplayer.gd<>uid://vswiq0uodt3k::::res://art/inventory_art/inventory-slot.png
+dialogueplayer.gd::GDScript::-1::1713737483::0::1::::<>Control<>::
+npcdialogue.json::JSON::-1::1713735683::0::1::::<><>::
+::res://inventory/::1713688017
+::res://its-hard-to-cook-sushi-html/::1713741211
+index.apple-touch-icon.png::CompressedTexture2D::7651261394270970776::1713741211::1713741988::1::::<><>::
+index.icon.png::CompressedTexture2D::5166636409467612895::1713741211::1713741988::1::::<><>::
+index.png::CompressedTexture2D::2141748324471181239::1713741211::1713741988::1::::<><>::
+::res://scene/::1713740479
+apple_collectable.tscn::PackedScene::4492572694980039193::1713740478::0::1::::<><>::res://script/apple_collectable.gd<>uid://b8gimcxjrrdx8::::res://art/environment/apple-icon.png
+apple_tree.tscn::PackedScene::3541486767851628547::1713740478::0::1::::<><>::res://apple_tree.gd<>uid://3r06l6xh1358::::res://art/environment/survivalgame-appletree.png
+Area2D2.gd::GDScript::-1::1713689019::0::1::::<>Area2D<>::
+Area2D.gd::GDScript::-1::1713687884::0::1::::<>Area2D<>::
+cooking area.gd::GDScript::-1::1713739691::0::1::::<>Area2D<>::
+cookingSystem.gd::GDScript::-1::1713725433::0::1::::<>Control<>::
+cookingSystem.tscn::PackedScene::8874594386413844987::1713740479::0::1::::<><>::uid://cw4dtuq01nnnx::::res://art/KitchenArts/whitebg (1).jpeg<>res://scene/cookingSystem.gd<>uid://dc0eopi36u0jk::::res://art/KitchenArts/whitebg (1).png
+dashboard.gd::GDScript::-1::1713727315::0::1::::<>Control<>::
+dashboard.tscn::PackedScene::7950299642410390324::1713740479::0::1::::<><>::res://scene/dashboard.gd<>uid://vswiq0uodt3k::::res://art/inventory_art/inventory-slot.png<>uid://csd78qdwq23lm::::res://art/ingredients/ingredient (2).png<>uid://cpwsw5f5583gv::::res://art/ingredients/ingredient (9).png<>uid://c1e4uhrwwrioc::::res://art/ingredients/ingredient (10).png<>uid://cdckb0rq7hku8::::res://art/ingredients/ingredient (12).png<>uid://dve62hy7grlnj::::res://art/ingredients/ingredient (14).png<>uid://knxjyd0q0ft5::::res://art/ingredients/ingredient (8).png<>uid://b77rscx133657::::res://art/ingredients/ingredient (6).png<>uid://qe8swupkvmmm::::res://art/ingredients/ingredient (7).png<>uid://b05vs3eoesr3e::::res://art/ingredients/ingredient (3).png<>uid://bdi2va4a372vb::::res://art/ingredients/ingredient (17).png<>uid://bguaet5wbhdmc::::res://art/ingredients/ingredient (5).png<>uid://bh7776denjs35::::res://art/ingredients/ingredient (11).png<>uid://dl1oca0ll5ac::::res://art/ingredients/ingredient (18).png<>uid://bvvgejprxif46::::res://art/ingredients/ingredient (13).png<>uid://5dumoqbqpbkb::::res://art/ingredients/ingredient (16).png<>uid://d0si3awi858cb::::res://art/ingredients/ingredient (15).png<>uid://b63i2bnmwl6in::::res://art/ingredients/ingredient (4).png<>uid://cdk06msux7n27::::res://art/ingredients/ingredient (1).png<>uid://bnvc3sa3b1dra::::res://art/sushis/sushi (1).png<>uid://ce2wc8q2lqttv::::res://art/sushis/sushi (2).png<>uid://cr43w44narlty::::res://art/sushis/sushi (3).png<>uid://c6oo3q5ywuna5::::res://art/sushis/sushi (4).png<>uid://ckpccymmd4cnh::::res://art/sushis/sushi (5).png
+npc.tscn::PackedScene::4389925763865309121::1713740479::0::1::::<><>::res://NPC.gd<>uid://dmmyxcxmyp4g::::res://art/Character/survivalgame-player-green.png<>uid://diu372kj6ju8e::::res://Dialogue/dialogue.tscn
+player.tscn::PackedScene::4193798343400131678::1713740477::0::1::::<><>::res://script/player.gd<>uid://57yl4fvmksov::::res://art/Character/chef.png<>uid://dljgjkh5kwxls::::res://scene/dashboard.tscn<>uid://nfww1x0l48jn::::res://art/Character/Chef-flipped.png<>uid://dyo6jjsauq668::::res://scene/cookingSystem.tscn
+sellingArea.gd::GDScript::-1::1713739691::0::1::::<>Area2D<>::
+shopkeeper.tscn::PackedScene::3168694186517021215::1713740479::0::1::::<><>::res://shopkeeper.gd<>uid://dlvhtpjb4uw8i::::res://art/Character/Human-Worker-Red (1).png<>uid://ckri6lsvpnplp::::res://scene/shopmenu.tscn
+shopmenu.tscn::PackedScene::5510365927676774329::1713740479::0::1::::<><>::res://shopmenu.gd<>uid://c8rgh2mmpcrvc::::res://art/environment/farmingTilesheetComplete.png<>uid://csd78qdwq23lm::::res://art/ingredients/ingredient (2).png<>uid://dl1oca0ll5ac::::res://art/ingredients/ingredient (18).png<>uid://bvvgejprxif46::::res://art/ingredients/ingredient (13).png<>uid://bguaet5wbhdmc::::res://art/ingredients/ingredient (5).png<>uid://bh7776denjs35::::res://art/ingredients/ingredient (11).png<>uid://b63i2bnmwl6in::::res://art/ingredients/ingredient (4).png<>uid://5dumoqbqpbkb::::res://art/ingredients/ingredient (16).png<>uid://dve62hy7grlnj::::res://art/ingredients/ingredient (14).png<>uid://cpwsw5f5583gv::::res://art/ingredients/ingredient (9).png<>uid://bdi2va4a372vb::::res://art/ingredients/ingredient (17).png<>uid://qe8swupkvmmm::::res://art/ingredients/ingredient (7).png<>uid://d0si3awi858cb::::res://art/ingredients/ingredient (15).png<>uid://c1e4uhrwwrioc::::res://art/ingredients/ingredient (10).png<>uid://b77rscx133657::::res://art/ingredients/ingredient (6).png<>uid://b05vs3eoesr3e::::res://art/ingredients/ingredient (3).png<>uid://knxjyd0q0ft5::::res://art/ingredients/ingredient (8).png<>uid://cdckb0rq7hku8::::res://art/ingredients/ingredient (12).png<>uid://cdk06msux7n27::::res://art/ingredients/ingredient (1).png
+stick_collectable.tscn::PackedScene::8214834128875076946::1713740478::0::1::::<><>::res://stick_collectable.gd<>uid://bnuxblibjctik::::res://art/environment/stick-icon.png
+world2.tscn::PackedScene::4339534057781657361::1713740479::0::1::::<><>::uid://crtldwf2af6fq::::res://art/KitchenArts/door.png<>uid://cpe811so238jv::::res://art/KitchenArts/kitchenTables.png<>uid://cddd2b67ta4qb::::res://art/KitchenArts/Tile1.jpg<>uid://bhre3ceonij5e::::res://art/KitchenArts/Tile2.jpg<>uid://btw4wf0xbo21t::::res://art/KitchenArts/tile3.jpg<>uid://cv6wnwirh1fhq::::res://art/KitchenArts/KitchenSet (1).png<>uid://ite5wigfbgl1::::res://art/KitchenArts/KitchenSet (2).png<>uid://bwfksdyisd5aw::::res://art/KitchenArts/KitchenSet (3).png<>uid://kd7acg6rn0pb::::res://art/KitchenArts/cash.png<>res://scene/Area2D2.gd<>uid://b00rimms5rga5::::res://scene/player.tscn<>res://scene/cooking area.gd<>res://scene/sellingArea.gd
+world.tscn::PackedScene::7068128328865073256::1713740478::0::1::::<><>::uid://b00rimms5rga5::::res://scene/player.tscn<>uid://b2j811386yfa6::::res://art/environment/survivalgame-terrian-defult.png<>uid://cqhrng5mjxr7e::::res://art/environment/survivalgame-terrian-cliffs.png<>uid://box5mssihkol2::::res://art/environment/mtfuji.png<>uid://4de3p3fglkpr::::res://art/environment/shrinegate.png<>uid://cqi1vw68yp7oj::::res://art/environment/survivalgame-trees.png<>uid://cbt28klcddabc::::res://art/environment/snow.jpg<>uid://dtt4m144fyk7q::::res://art/environment/survivalgame-terrian-water.png<>uid://vsf6op744tpd::::res://art/environment/shrine.png<>uid://bqpr1fyjowfyp::::res://scene/apple_tree.tscn<>uid://deycg8ilnlgab::::res://art/environment/bridges.png<>uid://c8bqu8bm553o5::::res://art/environment/lamp.png<>uid://d6lgr3riydgp::::res://art/environment/town.png<>uid://3r06l6xh1358::::res://art/environment/survivalgame-appletree.png<>uid://dy3awlbgintfs::::res://art/environment/survivalgame-randomitems.png<>uid://c22lu5rdbjb1l::::res://art/environment/resturant.png<>uid://c0hb1whdlh2bc::::res://art/environment/sakura.png<>uid://rfrwlit1wp0c::::res://art/environment/shop-grocery.png<>res://scene/Area2D.gd<>uid://ble66vorjl6md::::res://scene/shopkeeper.tscn<>uid://b3sro270607dd::::res://scene/npc.tscn
+::res://script/::1713739444
+apple_collectable.gd::GDScript::-1::1713606137::0::1::::<>StaticBody2D<>::
+player.gd::GDScript::-1::1713739444::0::1::::<>CharacterBody2D<>::

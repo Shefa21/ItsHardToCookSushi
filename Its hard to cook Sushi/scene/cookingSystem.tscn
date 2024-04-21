@@ -1,0 +1,60 @@
+[gd_scene load_steps=5 format=3 uid="uid://dyo6jjsauq668"]
+
+[ext_resource type="Texture2D" uid="uid://cw4dtuq01nnnx" path="res://art/KitchenArts/whitebg (1).jpeg" id="1_anrcr"]
+[ext_resource type="Script" path="res://scene/cookingSystem.gd" id="1_kggb6"]
+[ext_resource type="Texture2D" uid="uid://dc0eopi36u0jk" path="res://art/KitchenArts/whitebg (1).png" id="2_negj8"]
+
+[sub_resource type="Theme" id="Theme_03rkm"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 368.0
+offset_bottom = 207.0
+script = ExtResource("1_kggb6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(184.5, 103.75)
+scale = Vector2(0.586262, 0.480815)
+texture = ExtResource("1_anrcr")
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+modulate = Color(0.2, 0.301961, 1, 1)
+layout_mode = 0
+offset_left = 36.0
+offset_top = 130.0
+offset_right = 337.0
+offset_bottom = 157.0
+theme = SubResource("Theme_03rkm")
+step = 1.0
+
+[node name="Label" type="Label" parent="."]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 0
+offset_left = 75.0
+offset_top = 10.0
+offset_right = 295.0
+offset_bottom = 44.0
+text = "ah,snap,its hard to cook"
+uppercase = true
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(180, 77)
+scale = Vector2(0.294, 0.211)
+texture = ExtResource("2_negj8")
+
+[node name="Label2" type="Label" parent="."]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 0
+offset_left = 42.0
+offset_top = 163.0
+offset_right = 341.0
+offset_bottom = 197.0
+text = "in progress"
+horizontal_alignment = 1
+uppercase = true
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+autostart = true

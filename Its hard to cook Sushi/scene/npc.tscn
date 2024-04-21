@@ -1,0 +1,88 @@
+[gd_scene load_steps=13 format=3 uid="uid://b3sro270607dd"]
+
+[ext_resource type="Script" path="res://NPC.gd" id="1_jrcl7"]
+[ext_resource type="Texture2D" uid="uid://dmmyxcxmyp4g" path="res://art/Character/survivalgame-player-green.png" id="2_edkd0"]
+[ext_resource type="PackedScene" uid="uid://diu372kj6ju8e" path="res://Dialogue/dialogue.tscn" id="3_x32h4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p78m1"]
+atlas = ExtResource("2_edkd0")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ejmtn"]
+atlas = ExtResource("2_edkd0")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0hd82"]
+atlas = ExtResource("2_edkd0")
+region = Rect2(448, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vxt8a"]
+atlas = ExtResource("2_edkd0")
+region = Rect2(448, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xj7tv"]
+atlas = ExtResource("2_edkd0")
+region = Rect2(448, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f0h60"]
+atlas = ExtResource("2_edkd0")
+region = Rect2(448, 224, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7xufm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p78m1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ejmtn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0hd82")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vxt8a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xj7tv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f0h60")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_a1xkl"]
+radius = 16.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_iql8t"]
+radius = 9.05539
+
+[node name="NPC" type="CharacterBody2D"]
+script = ExtResource("1_jrcl7")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_7xufm")
+animation = &"idle"
+frame_progress = 0.0986562
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_a1xkl")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_iql8t")
+
+[node name="Dialogue" parent="." instance=ExtResource("3_x32h4")]
+offset_top = 11.0
+offset_bottom = 51.0
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]
+[connection signal="dialogue_finished" from="Dialogue" to="." method="_on_dialogue_dialogue_finished"]

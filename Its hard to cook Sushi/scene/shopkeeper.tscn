@@ -1,0 +1,84 @@
+[gd_scene load_steps=13 format=3 uid="uid://ble66vorjl6md"]
+
+[ext_resource type="Script" path="res://shopkeeper.gd" id="1_m8x2b"]
+[ext_resource type="Texture2D" uid="uid://dlvhtpjb4uw8i" path="res://art/Character/Human-Worker-Red (1).png" id="2_pgl4r"]
+[ext_resource type="PackedScene" uid="uid://ckri6lsvpnplp" path="res://scene/shopmenu.tscn" id="3_7x84e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tly5c"]
+atlas = ExtResource("2_pgl4r")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cqo85"]
+atlas = ExtResource("2_pgl4r")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xjfvd"]
+atlas = ExtResource("2_pgl4r")
+region = Rect2(0, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gj2xe"]
+atlas = ExtResource("2_pgl4r")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_25so3"]
+atlas = ExtResource("2_pgl4r")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7v3o1"]
+atlas = ExtResource("2_pgl4r")
+region = Rect2(32, 224, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_85aoi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tly5c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cqo85")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xjfvd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gj2xe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_25so3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7v3o1")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kw5x8"]
+size = Vector2(20, 19)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2n3km"]
+radius = 23.1948
+
+[node name="shopkeeper" type="StaticBody2D"]
+script = ExtResource("1_m8x2b")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_85aoi")
+animation = &"idle"
+frame_progress = 0.808473
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_kw5x8")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_2n3km")
+
+[node name="shopmenu" parent="." instance=ExtResource("3_7x84e")]
+position = Vector2(25, -45)
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

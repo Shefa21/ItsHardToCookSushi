@@ -1,0 +1,318 @@
+[gd_scene load_steps=26 format=3 uid="uid://dljgjkh5kwxls"]
+
+[ext_resource type="Script" path="res://scene/dashboard.gd" id="1_lxfag"]
+[ext_resource type="Texture2D" uid="uid://vswiq0uodt3k" path="res://art/inventory_art/inventory-slot.png" id="1_wcktv"]
+[ext_resource type="Texture2D" uid="uid://csd78qdwq23lm" path="res://art/ingredients/ingredient (2).png" id="2_lp7no"]
+[ext_resource type="Texture2D" uid="uid://cpwsw5f5583gv" path="res://art/ingredients/ingredient (9).png" id="3_ao3rl"]
+[ext_resource type="Texture2D" uid="uid://c1e4uhrwwrioc" path="res://art/ingredients/ingredient (10).png" id="4_1tlvq"]
+[ext_resource type="Texture2D" uid="uid://cdckb0rq7hku8" path="res://art/ingredients/ingredient (12).png" id="5_5u8eh"]
+[ext_resource type="Texture2D" uid="uid://dve62hy7grlnj" path="res://art/ingredients/ingredient (14).png" id="6_pubjd"]
+[ext_resource type="Texture2D" uid="uid://knxjyd0q0ft5" path="res://art/ingredients/ingredient (8).png" id="7_f7swr"]
+[ext_resource type="Texture2D" uid="uid://b77rscx133657" path="res://art/ingredients/ingredient (6).png" id="8_216y8"]
+[ext_resource type="Texture2D" uid="uid://qe8swupkvmmm" path="res://art/ingredients/ingredient (7).png" id="9_16u12"]
+[ext_resource type="Texture2D" uid="uid://b05vs3eoesr3e" path="res://art/ingredients/ingredient (3).png" id="10_dkgly"]
+[ext_resource type="Texture2D" uid="uid://bdi2va4a372vb" path="res://art/ingredients/ingredient (17).png" id="11_i0e0g"]
+[ext_resource type="Texture2D" uid="uid://bguaet5wbhdmc" path="res://art/ingredients/ingredient (5).png" id="12_yu003"]
+[ext_resource type="Texture2D" uid="uid://bh7776denjs35" path="res://art/ingredients/ingredient (11).png" id="13_v54ra"]
+[ext_resource type="Texture2D" uid="uid://dl1oca0ll5ac" path="res://art/ingredients/ingredient (18).png" id="14_atyk4"]
+[ext_resource type="Texture2D" uid="uid://bvvgejprxif46" path="res://art/ingredients/ingredient (13).png" id="15_fuqlv"]
+[ext_resource type="Texture2D" uid="uid://5dumoqbqpbkb" path="res://art/ingredients/ingredient (16).png" id="16_kijly"]
+[ext_resource type="Texture2D" uid="uid://d0si3awi858cb" path="res://art/ingredients/ingredient (15).png" id="17_4a1ig"]
+[ext_resource type="Texture2D" uid="uid://b63i2bnmwl6in" path="res://art/ingredients/ingredient (4).png" id="18_71jlv"]
+[ext_resource type="Texture2D" uid="uid://cdk06msux7n27" path="res://art/ingredients/ingredient (1).png" id="19_jttn2"]
+[ext_resource type="Texture2D" uid="uid://bnvc3sa3b1dra" path="res://art/sushis/sushi (1).png" id="21_velhe"]
+[ext_resource type="Texture2D" uid="uid://ce2wc8q2lqttv" path="res://art/sushis/sushi (2).png" id="22_l70r2"]
+[ext_resource type="Texture2D" uid="uid://cr43w44narlty" path="res://art/sushis/sushi (3).png" id="23_qo8kk"]
+[ext_resource type="Texture2D" uid="uid://c6oo3q5ywuna5" path="res://art/sushis/sushi (4).png" id="24_kd1cv"]
+[ext_resource type="Texture2D" uid="uid://ckpccymmd4cnh" path="res://art/sushis/sushi (5).png" id="25_ddkft"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -3.0
+offset_right = 286.0
+offset_bottom = 191.0
+script = ExtResource("1_lxfag")
+
+[node name="Board" type="Sprite2D" parent="."]
+position = Vector2(151, 117.438)
+scale = Vector2(18, 13.8203)
+texture = ExtResource("1_wcktv")
+metadata/_edit_group_ = true
+
+[node name="nori" type="Sprite2D" parent="."]
+position = Vector2(40, 68)
+scale = Vector2(1.78125, 1.625)
+texture = ExtResource("2_lp7no")
+
+[node name="rice" type="Sprite2D" parent="."]
+position = Vector2(93, 65)
+scale = Vector2(2, 1.5)
+texture = ExtResource("3_ao3rl")
+
+[node name="soysauce" type="Sprite2D" parent="."]
+position = Vector2(152, 62)
+scale = Vector2(1.875, 1.7)
+texture = ExtResource("4_1tlvq")
+
+[node name="wasabi" type="Sprite2D" parent="."]
+position = Vector2(201, 63)
+scale = Vector2(1.4375, 1.42308)
+texture = ExtResource("5_5u8eh")
+
+[node name="pickledginger" type="Sprite2D" parent="."]
+position = Vector2(243, 68)
+scale = Vector2(1.6875, 1.3)
+texture = ExtResource("6_pubjd")
+
+[node name="vinegar" type="Sprite2D" parent="."]
+position = Vector2(44, 91)
+scale = Vector2(1.75, 1.27273)
+texture = ExtResource("7_f7swr")
+
+[node name="sugar" type="Sprite2D" parent="."]
+position = Vector2(94, 94)
+scale = Vector2(1.375, 1.25)
+texture = ExtResource("8_216y8")
+
+[node name="salt" type="Sprite2D" parent="."]
+position = Vector2(154, 94)
+scale = Vector2(1.625, 1.375)
+texture = ExtResource("9_16u12")
+
+[node name="tuna" type="Sprite2D" parent="."]
+position = Vector2(201, 94)
+scale = Vector2(1.5, 1.3)
+texture = ExtResource("10_dkgly")
+
+[node name="salmon" type="Sprite2D" parent="."]
+position = Vector2(244, 98)
+scale = Vector2(2.1875, 1.875)
+texture = ExtResource("11_i0e0g")
+
+[node name="crabmeat" type="Sprite2D" parent="."]
+position = Vector2(44, 132)
+scale = Vector2(2.5625, 2.25)
+texture = ExtResource("12_yu003")
+
+[node name="cucumber" type="Sprite2D" parent="."]
+position = Vector2(95, 127)
+scale = Vector2(2.09375, 1.45)
+texture = ExtResource("13_v54ra")
+
+[node name="avocado" type="Sprite2D" parent="."]
+position = Vector2(155, 128)
+scale = Vector2(1.875, 1.33333)
+texture = ExtResource("14_atyk4")
+
+[node name="carrot" type="Sprite2D" parent="."]
+position = Vector2(202, 126)
+scale = Vector2(1.6875, 1.5)
+texture = ExtResource("15_fuqlv")
+
+[node name="onion" type="Sprite2D" parent="."]
+position = Vector2(249, 126)
+scale = Vector2(2.3125, 1.92857)
+texture = ExtResource("16_kijly")
+
+[node name="seed" type="Sprite2D" parent="."]
+position = Vector2(49, 162)
+scale = Vector2(1.875, 1.875)
+texture = ExtResource("17_4a1ig")
+
+[node name="mirin" type="Sprite2D" parent="."]
+position = Vector2(99, 157)
+scale = Vector2(1.625, 1.3125)
+texture = ExtResource("18_71jlv")
+
+[node name="coin" type="Sprite2D" parent="."]
+position = Vector2(44, 37)
+scale = Vector2(1.1875, 1.1875)
+texture = ExtResource("19_jttn2")
+
+[node name="coinL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 26.0
+offset_right = 94.0
+offset_bottom = 49.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="noriL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 56.0
+offset_right = 86.0
+offset_bottom = 79.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="riceL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 109.0
+offset_top = 53.0
+offset_right = 149.0
+offset_bottom = 76.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="soysauceL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 57.0
+offset_right = 200.0
+offset_bottom = 80.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="wasabiL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 201.0
+offset_top = 56.0
+offset_right = 241.0
+offset_bottom = 79.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="pickledgingerL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 252.0
+offset_top = 57.0
+offset_right = 292.0
+offset_bottom = 80.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="vinegarL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 49.0
+offset_top = 86.0
+offset_right = 89.0
+offset_bottom = 109.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="sugarL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 107.0
+offset_top = 87.0
+offset_right = 147.0
+offset_bottom = 110.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="saltL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 159.0
+offset_top = 85.0
+offset_right = 199.0
+offset_bottom = 108.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="tunaL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 204.0
+offset_top = 87.0
+offset_right = 244.0
+offset_bottom = 110.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="salmonL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 251.0
+offset_top = 85.0
+offset_right = 291.0
+offset_bottom = 108.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="crabmeatL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 53.0
+offset_top = 119.0
+offset_right = 93.0
+offset_bottom = 142.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="cucumberL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 106.0
+offset_top = 118.0
+offset_right = 146.0
+offset_bottom = 141.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="avocadoL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 157.0
+offset_top = 118.0
+offset_right = 197.0
+offset_bottom = 141.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="carrotL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 201.0
+offset_top = 117.0
+offset_right = 241.0
+offset_bottom = 140.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="onionL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 252.0
+offset_top = 117.0
+offset_right = 292.0
+offset_bottom = 140.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="seedL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 148.0
+offset_right = 98.0
+offset_bottom = 171.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="mirinL" type="Label" parent="."]
+layout_mode = 0
+offset_left = 106.0
+offset_top = 146.0
+offset_right = 146.0
+offset_bottom = 169.0
+text = "00"
+horizontal_alignment = 1
+
+[node name="sushi" type="Sprite2D" parent="."]
+position = Vector2(52, 188)
+scale = Vector2(0.0986446, 0.0921906)
+texture = ExtResource("21_velhe")
+
+[node name="sushi2" type="Sprite2D" parent="."]
+position = Vector2(110, 186)
+scale = Vector2(0.0665, 0.065625)
+texture = ExtResource("22_l70r2")
+
+[node name="sushi3" type="Sprite2D" parent="."]
+position = Vector2(163, 184)
+scale = Vector2(0.085, 0.07)
+texture = ExtResource("23_qo8kk")
+
+[node name="sushi4" type="Sprite2D" parent="."]
+position = Vector2(206, 187)
+scale = Vector2(0.0620117, 0.0570653)
+texture = ExtResource("24_kd1cv")
+
+[node name="sushi5" type="Sprite2D" parent="."]
+position = Vector2(251, 186)
+scale = Vector2(0.130769, 0.117857)
+texture = ExtResource("25_ddkft")
