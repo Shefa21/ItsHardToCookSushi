@@ -7,22 +7,24 @@ Team Members - Sadman Sakib
 
 Used engine - Godot
 
-How to install - playable on web from      itch.io
+How to install - no need to install , playable on web from itch.io
 
 How to play - This is a story based game.
-For different buttons there are different functionalities , such as -
-for W- the npc will move 
+For different keys there are different functionalities ,In the map, for pressing-
+W- the npc will move Up 
+
+A- down
+
+S- right 
+
+D - left
 
 
-For S
+K - cook
 
-For D
+Enter - Dialogue and scene change
 
-
-For C - 
-
-
-FOR k - 
+I - Inventory 
 
 
 
