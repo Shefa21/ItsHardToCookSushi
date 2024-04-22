@@ -28,7 +28,7 @@ I - Inventory
 
 
 
-Video link-
+Video link-https://youtu.be/94288_N3ouM?si=jraWa3ztmGWh9Ihe
 
 
 Important to know- Ingredients can be bought by going to shop.
