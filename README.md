@@ -8,6 +8,7 @@ Team Members - Sadman Sakib ,
 Used engine - Godot
 
 How to install - no need to install , playable on web from link on itch.io
+https://bruwunbread.itch.io/its-hard-to-cook-sushi
 
 How to play - This is a story based game.
 For different keys there are different functionalities ,In the map, for pressing-
